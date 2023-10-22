@@ -8,6 +8,7 @@ export const Filter = ({ filter, handleInputChange }) => {
         id="findByName"
         value={filter}
         onChange={handleInputChange}
+        pattern="^[a-zA-Zа-яА-Я]+(([' \-][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
       />
     </>
   );

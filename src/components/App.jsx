@@ -5,9 +5,6 @@ import { ContactList } from './ContactList/ContactList';
 import { Filter } from './Filter/Filter';
 
 export class App extends Component {
-  // 1. render Contacts умова
-  // 2. передача visibleContacts в ContactsList як children чи props
-
   state = {
     contacts: [],
     filter: '',
